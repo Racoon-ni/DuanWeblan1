@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>signup</title>
+  </head>
+  <body>
+    <div id="container">
+      <form
+        action=""
+        method="post"
+        style="
+          width: 500px;
+          margin: 10px auto;
+          height: auto;
+          background-color: rgba(186, 234, 218, 0.762);
+          padding-left: 20px;
+          padding-right: 40px;
+          padding-bottom: 10px;
+        "
+      >
+        <h1 style="text-align: center; padding: 5px">Sign Up</h1>
+        <span
+          style="
+            display: inline-block;
+            background-color: #34c8b2;
+            border-radius: 100%;
+            padding: 11px 17px 11px 17px;
+            font-size: medium;
+            margin: 5px 0px;
+            color: #ffffff;
+          "
+          >1</span
+        >
+        <span style="font-size: 21px; font-weight: bold">Your basic info:</span>
+        <br />
+        <span>Name:</span>
+        <br />
+        <input
+          type="text"
+          name="username"
+          placeholder="Input your username"
+          style="width: 100%; padding: 10px; margin: 7px auto"
+        />
+        <br />
+        <span>Email:</span>
+        <br />
+        <input
+          type="text"
+          name="useremail"
+          placeholder="Input your email"
+          style="width: 100%; padding: 10px; margin: 7px auto"
+        />
+        <br />
+        <span>Password:</span>
+        <br />
+        <input
+          type="password"
+          name="userpassword"
+          placeholder="Input your passwordpassword"
+          style="width: 100%; padding: 10px; margin: 7px auto"
+        />
+        <br />
+        <span>Age:</span>
+        <br />
+        <input type="radio" value="under13" name="age" /> Under 13 <br />
+        <input type="radio" value="13 or order" name="age" /> 13 or order <br />
+        <!-- Phần 2 -->
+        <span
+          style="
+            display: inline-block;
+            background-color: #34c8b2;
+            border-radius: 100%;
+            padding: 11px 17px 11px 17px;
+            font-size: medium;
+            margin: 5px 0px;
+            color: #ffffff;
+          "
+          >2</span
+        >
+        <span style="font-size: 21px; font-weight: bold">Your profile</span>
+        <br />
+        <span>Biogarphy</span>
+        <br />
+        <textarea
+          name="Biogarphy"
+          id="Biogarphy"
+          placeholder="input your bio here"
+          cols="68"
+          rows="10"
+          style="margin-top: 10px; margin-bottom: 5px"
+        ></textarea>
+        <br />
+        <span>Job role:</span> <br />
+        <select
+          name=""
+          id="Jobrole"
+          style="margin-top: 10px; margin-bottom: 5px"
+        >
+          <optgroup label="Web">
+            <option value="1">front-end Developer</option>
+            <option value="2">PHP Developer</option>
+            <option value="3">Python Developer</option>
+            <option value="4">Rails Developer</option>
+            <option value="5">Web Designer</option>
+            <option value="6">WordPress Developer</option>
+          </optgroup>
+
+          <optgroup label="Mobie">
+            <option value="1">Android Developer</option>
+            <option value="2">IOS Developer</option>
+            <option value="3">Mobie Developer</option>
+          </optgroup>
+
+          <optgroup label="Bussiness">
+            <option value="1">Bussiness Owner</option>
+            <option value="2">Freelancer</option>
+          </optgroup>
+          <optgroup label="Other">
+            <option value="1">Secretary</option>
+            <option value="2">Manitenance</option>
+          </optgroup>
+        </select>
+        <br />
+        <span>Interests:</span>
+        <br />
+        <input
+          type="checkbox"
+          style="margin-top: 10px; margin-bottom: 5px"
+        />Development <br />
+        <input
+          type="checkbox"
+          style="margin-top: 10px; margin-bottom: 5px"
+        />Design <br />
+        <input
+          type="checkbox"
+          style="margin-top: 10px; margin-bottom: 10px"
+        />Business <br />
+
+        <input
+          type="submit"
+          name="submit"
+          value="SUBMIT"
+          style="
+            width: 100%;
+            height: 32px;
+            background-color: greenyellow;
+            border: hidden;
+            border-radius: 50px;
+            padding: 5px;
+            font-size: medium;
+          "
+        />
+      </form>
+    </div>
+  </body>
+</html>
